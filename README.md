@@ -4,28 +4,35 @@ A professional React-based cryptocurrency website for Lingo Dingo (LIGO) token f
 
 ## Quick Start
 
-### For Windows Users:
-Since the npm scripts use Unix environment variables, run these commands instead:
+### 🪟 For Windows Users (Multiple Options):
 
+**Option 1 - Node.js Script (Recommended):**
 ```bash
-# Install dependencies
-npm install
-
-# Start development server (Windows)
-npx cross-env NODE_ENV=development tsx server/index.ts
-
-# OR use the provided batch file
-./start-dev.bat
+node run-windows.js
 ```
 
-### For Mac/Linux Users:
+**Option 2 - Batch File:**
 ```bash
-# Install dependencies
-npm install
+start-dev.bat
+```
 
-# Start development server
+**Option 3 - Manual Commands:**
+```bash
+npm install
+set NODE_ENV=development
+npx tsx server/index.ts
+```
+
+### 🍎 For Mac/Linux Users:
+```bash
+npm install
 npm run dev
 ```
+
+### 🔧 Troubleshooting Windows Issues:
+- See `WINDOWS-SETUP.md` for detailed Windows-specific instructions
+- Common issues: Environment variables, path resolution, port conflicts
+- All solutions provided in the Windows setup guide
 
 ## Features
 
