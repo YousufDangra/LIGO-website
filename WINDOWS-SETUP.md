@@ -2,17 +2,22 @@
 
 ## Quick Start for Windows Users
 
-### Option 1: Use the Batch File (Recommended)
+### Option 1: Simple Node.js Script (Recommended for Node.js v18)
 ```cmd
 # 1. Open Command Prompt or PowerShell
 # 2. Navigate to the project folder
 cd path\to\lingo-dingo-website
 
-# 3. Run the batch file
+# 3. Run the simple startup script
+node start-windows-simple.js
+```
+
+### Option 2: Use the Batch File
+```cmd
 start-dev.bat
 ```
 
-### Option 2: Manual Commands
+### Option 3: Manual Commands
 ```cmd
 # 1. Install dependencies
 npm install
