@@ -41,11 +41,9 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
-            <img 
-              src={lingoLogo} 
-              alt="Lingo Dingo Logo" 
-              className="w-10 h-10 rounded-full"
-            />
+            <div className="w-10 h-10 bg-lingo-yellow rounded-full flex items-center justify-center">
+              <span className="text-lg font-bold text-lingo-black">LD</span>
+            </div>
             <span className="text-xl font-bold text-lingo-yellow">Lingo Dingo</span>
           </div>
           

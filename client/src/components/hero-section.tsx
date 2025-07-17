@@ -11,7 +11,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center gradient-bg relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center gradient-bg relative overflow-hidden pt-20">
       <div className="absolute inset-0 bg-gradient-to-r from-lingo-yellow/5 to-transparent"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
@@ -50,19 +50,13 @@ export default function HeroSection() {
           </motion.p>
           
           <motion.div 
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
+            className="flex justify-center items-center mb-12"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             <Button className="bg-lingo-yellow text-lingo-black hover:bg-lingo-light-yellow transition-all duration-300 transform hover:scale-105 shadow-lg px-8 py-4 text-lg font-bold">
               Buy LIGO Now
-            </Button>
-            <Button 
-              variant="outline" 
-              className="border-2 border-lingo-yellow text-lingo-yellow hover:bg-lingo-yellow hover:text-lingo-black transition-all duration-300 px-8 py-4 text-lg font-bold"
-            >
-              View Chart
             </Button>
           </motion.div>
           
