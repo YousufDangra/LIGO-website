@@ -35,8 +35,8 @@ export default function Footer() {
         
         <div className="mt-8 pt-8 border-t border-lingo-yellow/10 text-center text-gray-400">
           <p>
-            &copy; 2024 Lingo Dingo. All rights reserved. 
-            LIGO is a meme token with no intrinsic value or expectation of financial return.
+            &copy; 2025 Lingo Dingo. All rights reserved. 
+            
           </p>
         </div>
       </div>

@@ -49,16 +49,23 @@ export default function HeroSection() {
             The most sophisticated meme coin on Ethereum. Join the pack of smart investors with LIGO token.
           </motion.p>
           
-          <motion.div 
+          <motion.div
             className="flex justify-center items-center mb-12"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            <Button className="bg-lingo-yellow text-lingo-black hover:bg-lingo-light-yellow transition-all duration-300 transform hover:scale-105 shadow-lg px-8 py-4 text-lg font-bold">
-              Buy LIGO Now
-            </Button>
+            <a
+              href="https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x061f0ca7e7f1b450759c8aaff1932c429cf3dd9e"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-lingo-yellow text-lingo-black hover:bg-lingo-light-yellow transition-all duration-300 transform hover:scale-105 shadow-lg px-8 py-4 text-lg font-bold">
+                Buy LIGO Now
+              </Button>
+            </a>
           </motion.div>
+
           
           <motion.div 
             className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"

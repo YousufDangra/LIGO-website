@@ -34,7 +34,7 @@ export default function CommunitySection() {
       name: "Twitter / X",
       icon: SiX,
       description: "Follow us for updates",
-      href: "#",
+      href: "https://x.com/LingoDingoCoin",
       hoverColor: "hover:text-blue-400"
     },
     {
